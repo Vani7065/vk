@@ -4,12 +4,19 @@
     <title>LOGIN PAGE</title>
 </head>
 <body>
-    <h2>Login</h2>
+    <div class="login-box">
+        <fieldset>
+            <h2>Login</h2>
     <form>
+
         <label for="uname">User name:</label><br>
         <input type="text" id="uname" name="uname"><br>
         <label for="pass">Password:</label><br>
         <input type="password" id="pass" name="pass">
         <input type="submit" value="Submit">
       </form>
+        </fieldset>
+      </div>
+      </body>
+      </html>
       
